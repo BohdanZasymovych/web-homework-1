@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="uk">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>LeafyPod</title>
     </head>
+    
     <body>
+        <header class="site-header">
+            <a href="/" class="logo-link">
+                <img src="img/logo.svg" alt="Логотип LeafyPod"> 
+            </a>
+
+            <nav class="site-navigation">
+                <ul class="nav-list">
+                    <li><a href="#features">Про товар</a></li>
+                    <li><a href="#app">Додаток</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contact">Зв'язатися</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <main>
             <section id="product">
-                <header>
-                    <a href="/" class="logo-link">
-                        <img src="img/logo.svg" alt="Логотип LeafyPod"> 
-                    </a>
 
-                    <nav>
-                        <ul>
-                            <li><a href="#features">Про товар</a></li>
-                            <li><a href="#app">Додаток</a></li>
-                            <li><a href="#reviews">Відгуки</a></li>
-                            <li><a href="#contact">Зв'язатися</a></li>
-                        </ul>
-                    </nav>
-                </header>
-
-                <div class="content">
+                <div class="hero-content">
                     <h1>Інтелектуальний вазон з автополивом</h1>
                     <p>LeafyPod — це інтелектуальний вазон, який автоматизує догляд за рослинами, створюючи ідеальні умови завдяки системі автополиву та датчикам.</p>
                     
@@ -38,11 +40,11 @@
             </section>
             
             <section id="problems">
-                <header>
+                <header class="section-header">
                     <h2>Вирішує 4 головні причини загибелі рослин</h2>
                 </header>
 
-                <ul id="problems-grid">
+                <ul class="problems-grid">
                     <li class="problem-card">
                         <img src="img/icon_soil.svg" alt="Іконка зволоження ґрунту">
                         <h3>Зволоження ґрунту</h3>
@@ -71,14 +73,14 @@
                 <img src="img/side_leaves_right.png" alt="Декоративне листя">
             </section>
             
-            <section>
-                <header>
+            <section id="how-it-works">
+                <header class="section-header">
                     <h2>Рослини в’януть? Немає часу на догляд? Ми вирішимо це!</h2>
                 </header>
 
                 <h3>Як це працює</h3>
 
-                <ol>
+                <ol class="steps-list">
                     <li><span>Заповніть резервуар водою</span></li>
                     <li><span>Виберіть режим автополиву</span></li>
                     <li><span>Насолоджуйтесь здоровими рослинами!</span></li>
@@ -95,7 +97,7 @@
             </section>
 
             <section id="features"> 
-                <header>
+                <header class="section-header">
                     <h2>Особливості продукту</h2>
                 </header>
 
@@ -139,12 +141,12 @@
             </section>
            
             <section id="app">
-                <header>
+                <header class="section-header">
                     <h2>Функції мобільного додатку</h2>
                 </header>
 
                 <div class="app-content-wrapper">
-                    <ol>
+                    <ol class="steps-list">
                         <li>
                             <h3>Управління через смартфон</h3>
                             <p><span>Додаток дозволяє легко контролювати стан рослин і процес поливу прямо з вашого телефону.</span></p>
@@ -175,7 +177,7 @@
             </section>
 
             <section id="kit">
-                <header>
+                <header class="section-header">
                     <h2>Що у комплекті</h2>
                 </header>
 
@@ -220,7 +222,7 @@
             </section>
 
             <section id="reviews">
-                <header>
+                <header class="section-header">
                     <h2>Відгуки</h2>
                 </header>
 
@@ -254,53 +256,53 @@
                                 <p class="author-name">Софія</p>
                             </div>
                             
-                            <p>Цей вазон також ідеально підходить для тих, хто подорожує і не хоче хвилюватися, як поливати рослини або в якому стані вони будуть, коли ви повернетеся додому. Завдяки цьому горщику, ваші рослини будуть доглянуті  — усе в одному.</p>
+                            <p>Цей вазон також ідеально підходить для тих, хто подорожує і не хоче хвилюватися, як поливати рослини або в якому стані вони будуть, коли ви повернетеся додому. Завдяки цьому горщику, ваші рослини будуть доглянуті - усе в одному.</p>
                         </figure>
                     </li>
                 </ul>
             </section>
+        </main>
 
-            <footer id="contact">
-                <div class="footer-content">
-                    <div class="footer-brand">
-                        <a href="/" class="footer-logo">
-                            <img src="img/logo.svg" alt="Логотип LeafyPod">
-                        </a>
-                        
-                        <p class="tagline">Розумний догляд за вашими рослинами — легко і без турбот!</p>
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo">
+                        <img src="img/logo.svg" alt="Логотип LeafyPod">
+                    </a>
+                    
+                    <p class="tagline">Розумний догляд за вашими рослинами — легко і без турбот!</p>
 
-                        <div class="social-block">
-                            <p class="social-label">Слідкуйте за нами</p>
-                            <nav class="social-links">
-                                <a href="https://facebook.com">
-                                    <img src="img/icon_facebook.svg" alt="Facebook">
-                                </a>
-                                <a href="https://youtube.com">
-                                    <img src="img/icon_youtube.svg" alt="YouTube">
-                                </a>
-                                <a href="https://instagram.com">
-                                    <img src="img/icon_instagram.svg" alt="Instagram">
-                                </a>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <div class="footer-info">
-                        <nav class="legal-links">
-                            <ul>
-                                <li><a href="#terms_of_use">Умови використання</a></li>
-                                <li><a href="#policy">Політика конфіденційності</a></li>
-                            </ul>
+                    <div class="social-block">
+                        <p class="social-label">Слідкуйте за нами</p>
+                        <nav class="social-links">
+                            <a href="https://facebook.com">
+                                <img src="img/icon_facebook.svg" alt="Facebook">
+                            </a>
+                            <a href="https://youtube.com">
+                                <img src="img/icon_youtube.svg" alt="YouTube">
+                            </a>
+                            <a href="https://instagram.com">
+                                <img src="img/icon_instagram.svg" alt="Instagram">
+                            </a>
                         </nav>
-
-                        <a href="mailto:info@leafypod.one" class="contact-email">info@leafypod.one</a>
-
-                        <p class="copyright">© 2024 LeafyPod. Усі права захищені.</p>
                     </div>
                 </div>
 
-                <img src="img/leaves_bottom.png" alt="Декоративне листя" class="footer-leaves">                
-            </footer>
-        </main>
+                <div class="footer-info">
+                    <nav class="legal-links">
+                        <ul>
+                            <li><a href="#terms_of_use">Умови використання</a></li>
+                            <li><a href="#policy">Політика конфіденційності</a></li>
+                        </ul>
+                    </nav>
+
+                    <a href="mailto:info@leafypod.one" class="contact-email">info@leafypod.one</a>
+
+                    <p class="copyright">© 2024 LeafyPod. Усі права захищені.</p>
+                </div>
+            </div>
+
+            <img src="img/leaves_bottom.png" alt="Декоративне листя" class="footer-leaves">                
+        </footer>
     </body>
 </html>
